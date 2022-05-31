@@ -40,7 +40,7 @@ npx stylelint "**/*.{css,scss}"
 ## Getting packages and debuging with ESlint
 
 ```
-npm install npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x @babel/preset-env@7.x  @babel/preset-react@7.x
 ```
 
 ##### For validation detection using Stylelint Run
@@ -50,6 +50,9 @@ npx eslint .
 ```
 
 ##### To Compile and See a live Version,  Run
+```
+npm run build
+```
 ```
 npm start
 ```
