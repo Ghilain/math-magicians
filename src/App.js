@@ -12,5 +12,5 @@ class Rendcalculator extends React.Component {
       <Calculator />
     );
   }
-};
+}
 export default Rendcalculator;
