@@ -64,7 +64,7 @@ class Calculator extends React.Component {
 
           <div className="calcOperators">
             <button type="button" onClick={this.handleClick} className="divid" value="÷">÷</button>
-            <button type="button" onClick={this.handleClick} className="times" value="&times;">&times;</button>
+            <button type="button" onClick={this.handleClick} className="times" value="x">&times;</button>
             <button type="button" onClick={this.handleClick} className="minus" value="-">-</button>
             <button type="button" onClick={this.handleClick} className="add" value="+">+</button>
             <button type="button" onClick={this.handleClick} className="equal" value="=">=</button>
