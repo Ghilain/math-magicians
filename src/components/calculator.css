@@ -1,0 +1,68 @@
+.inputCalc{
+    grid-area: header;
+    /* font-size: 30px;
+    text-align: center;
+    padding: 40px; */
+    text-align:right;
+
+}
+
+.calcNumber{
+    grid-area: number;
+}
+
+.calcOperators{
+    grid-area: operators;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.calcContainer{
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'number operators';
+    gap: 1px;
+    background-color: #000000;
+}
+
+.calcContainer > div {
+    background-color: rgba(255, 255, 255, 255);
+    padding: 40px;
+    font-size: 30px;
+  }
+
+.calcNumber1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    
+}
+
+.itemcalc {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* padding: 40px; */
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .zero{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .dot{
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .calcNumber2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: #000000;
+    height: fit-content;
+  }
