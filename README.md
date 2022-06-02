@@ -51,6 +51,9 @@ npx eslint .
 
 ##### To Compile and See a live Version,  Run
 ```
+npm install
+```
+```
 npm run build
 ```
 ```
