@@ -3,10 +3,8 @@
   background-color: #6a7181;
   color: white;
   text-align: right;
-  padding-top: 20px;
-  font-size: 50px;
-  padding-bottom: 20px;
-  width: 64.6%;
+  font-size: 30px;
+  height: 90px;
 }
 
 .calcNumber {
@@ -16,7 +14,7 @@
 
 .buttonContainer {
   display: flex;
-  width: 100%;
+  width: 600px;
 }
 
 .calcOperators {
@@ -33,6 +31,8 @@
     'number operators';
   gap: 1px;
   margin-left: 10%;
+  margin-top: 30px;
+  width: 600px;
 }
 
 .heightbtn {
