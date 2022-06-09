@@ -25,3 +25,38 @@ code {
     'Courier New',
     monospace;
 }
+
+.homeText {
+  font-family: monospace;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.navBar {
+  font-family: monospace;
+  font-size: 25px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.active-link {
+  margin-left: 20px;
+}
+
+.linkContainer {
+  margin-top: 40px;
+  position: sticky;
+  left: 70%;
+  margin-right: 20px;
+}
+
+.quoteText {
+  font-family: monospace;
+  font-size: 31px;
+  font-weight: 550;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 120px;
+  margin-left: 120px;
+}

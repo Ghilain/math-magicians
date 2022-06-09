@@ -1,5 +1,9 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import { Routes, Route } from 'react-router-dom';
+import Calculatorpage from './pages/calcuPage';
+import Homepage from './pages/hom';
+import Quotepage from './pages/quote';
+import Navbar from './pages/Navbar';
 
 class Rendcalculator extends React.Component {
   constructor(props) {
@@ -9,7 +13,14 @@ class Rendcalculator extends React.Component {
 
   render() {
     return (
-      <Calculator />
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/calculator" element={<Calculatorpage />} />
+          <Route path="/quote" element={<Quotepage />} />
+        </Routes>
+      </div>
     );
   }
 }
