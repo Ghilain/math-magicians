@@ -1,6 +1,6 @@
 import React from 'react';
-import '../components/calculator.css';
 import { LoremIpsum } from 'react-lorem-ipsum';
+import './pages.css';
 
 const Homepage = () => (
   <div className="homeText">
