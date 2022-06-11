@@ -5,7 +5,11 @@
 ## Built With
 
 - React
+## Project Deploying
 
+- [Heroku deploy](https://math---magicians.herokuapp.com/)
+
+- [Netlify deploy](https://rococo-liger-868676.netlify.app/)
 
 ### Prerequisites
 
